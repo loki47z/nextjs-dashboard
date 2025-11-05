@@ -1,4 +1,5 @@
-
+// @ts-ignore: side-effect import of CSS without type declarations
+import '@/app/ui/global.css';
 import {inter} from '@/app/ui/fonts'
 
 export default function RootLayout({
